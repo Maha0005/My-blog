@@ -1,0 +1,65 @@
+.head,.foot{
+            padding:25px;
+            background-color:black;
+            color:aqua;
+            font-size:28px;
+        }
+        .foot{
+            margin-top:20%;
+        }
+        .img{
+            border-color:black ;
+            padding:30px;
+            border:30px;
+        }
+        #img3{
+            padding-left:6px;
+            padding-right:6px;
+            width:280px;
+
+        }
+        .phone1{
+            max-width:300px;
+            border-radius:12px; 
+            box-shadow: 0 4px 12px rgba(72, 72, 72, 0.1);
+            padding:20px;
+            flex: 1 1 250px;
+            margin-left:45px;
+            margin-top:6%;
+        }
+        .button{
+            background-color: rgb(30, 95, 237);
+            color:aliceblue;
+            border:none;
+            border-radius:20px ;
+            padding:6px;
+            transform: 1.2;
+            cursor: pointer;
+            transition: transform 1.2,opacity 0.8;
+        }
+        .button :hover{
+            transform: scale(1.2s);
+            opacity:0.8 ;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap:wrap;
+            padding:20px;
+        }
+        span{
+            color:rgb(96, 94, 94);
+            font-size:14px ;
+        }
+        h1{
+            text-align:center;
+            font-size:50px;
+        }
+        @media (max-width:768px) {
+            .phone1{
+                flex:1 1 100%;
+                max-width:100%;
+            }
+            
+        }
